@@ -1,0 +1,9 @@
+C:/xampp/htdocs/GAME_BAZAR
+
+
+Current working directory
+./SLIDER 1 imgaes/a.png
+
+../game/a.png
+
+../../../../../../../

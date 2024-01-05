@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+   /*background-color:#013f3f;*/
+   background-image: linear-gradient(to bottom right, #091c18, #113130);
+   color:white;
+}
+
+h1 {
+	font-family: "Bilbo", cursive;
+	font-size: 5em;
+	font-weight: bold;
+}
+
+#quoteBox {
+	width: 50%;
+	padding: 2em 2em 2em 2em;
+	background-color: #011410;
+	color: white;
+    margin:43px auto;
+	text-align: center;
+	font-family: "Bilbo", cursive;
+    box-shadow: 10px 10px 5px lightblue;
+    ;
+}
+
+@media (min-width: 575px){
+	#quoteBox{
+		font-size: 1.5em;
+		min-height: 2px;
+	}
+}
+
+.btn {
+	margin: 2em;
+	width: 10em;
+    box-shadow:0 0 10px #008080;
+    border-color: #008080;
+    border-radius: 5px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+
+}
+.btn:hover {
+    /* Add hover styles here */
+    color:white;
+    box-shadow:0 0 10px #008080;
+    
+}
+
+
+

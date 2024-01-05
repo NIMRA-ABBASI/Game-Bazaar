@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+   /*background-color:#013f3f;*/
+   background-image: linear-gradient(to bottom right, #091c18, #113130);
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.pro-image {
+    max-width: 100% !important;
+    height: 200px !important;
+}
+.game-content{
+    margin:0 8%;
+}
+
+.game-content .container
+{
+    padding: 40px;
+
+}
+.game-content .container:nth-child(n)
+{
+    background-color: #05110f;
+}
+.game-content .container:nth-child(2n)
+{
+    background-color: #172220;
+}
+.game-category
+{
+    color:white;
+}
+.game-name span{
+    color:#8dcecd;
+}
+.game-name
+{
+    color: white;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cart-num {
+    position: absolute;
+    right: 16px;
+    top: -20px;
+    text-align: left;
+    transform: scaleX(-1.5);
+    font-size: 12px;
+    background: #064f4d;
+    border-radius: 50%;
+    padding: 4px;
+}
